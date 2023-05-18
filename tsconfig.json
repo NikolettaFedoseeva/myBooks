@@ -1,0 +1,55 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "es2022",
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": false,
+    "strictPropertyInitialization": false,
+    "skipLibCheck": true,
+    "lib": [
+      "esnext",
+      "dom",
+      "es5",
+      "es6",
+      "dom.iterable"
+    ],
+    "baseUrl": "./",
+    "paths": {
+      "@*": [
+        "./src/*"
+      ],
+      "@assets/*": [
+        "./src/assets/*"
+      ],
+      "@layout/*": [
+        "./src/components/layout/*"
+      ],
+      "@views/*": [
+        "./src/components/views/*"
+      ],
+      "@plugins/*": [
+        "./src/plugins/*"
+      ],
+      "@store/*": [
+        "./src/store/*"
+      ],
+      "@api/*": [
+        "./src/api/*"
+      ],
+      "@pinia/*": [
+        "./src/pinia/*"
+      ],
+      "@resources/*": [
+        "./src/resources/*"
+      ],
+    },
+    "types": [
+      "vue/ref-macros"
+    ],
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
